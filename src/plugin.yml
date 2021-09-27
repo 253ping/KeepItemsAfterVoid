@@ -1,0 +1,6 @@
+name: Plugin001
+version: 1
+author: 253ping
+main: com.badping.plugin.Plugin
+api-version: 1.12.2
+prefix: Plugin001
