@@ -42,10 +42,10 @@ public class Plugin extends JavaPlugin implements Listener {
 				player.setFallDistance(0); // Kein fallschaden
 				player.setHealth(player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()); // Spieler Leben auf 100% setzen
 				player.teleport(new Location(player.getWorld(), config.getDouble("plugin.spawn.x"), // TP Spieler zu Spawn
-																config.getDouble("plugin.spawn.y"),
-																config.getDouble("plugin.spawn.z"),
-														(float) config.getDouble("plugin.spawn.yaw"),
-														(float) config.getDouble("plugin.spawn.pitch")));
+										config.getDouble("plugin.spawn.y"),
+										config.getDouble("plugin.spawn.z"),
+									(float) config.getDouble("plugin.spawn.yaw"),
+									(float) config.getDouble("plugin.spawn.pitch")));
 				
 			}
 		}
