@@ -22,6 +22,7 @@ public class Plugin extends JavaPlugin implements Listener {
 	
 	@Override
 	public void onEnable() {
+		saveDefaultConfig();
 		this.instaDeath = getConfig().getBoolean("plugin.instadeath");
 		getServer().getPluginManager().registerEvents(this, this);
 	}
